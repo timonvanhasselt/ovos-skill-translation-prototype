@@ -1,26 +1,6 @@
-# Dictation skill
+# Speech translation skill for OVOS
 
-continuously transcribes user speech to text file while enabled, made for [ovos-dinkum-listener](https://github.com/OpenVoiceOS/ovos-dinkum-listener)
+This is a proof of concept/ prototype made with ChatGPT based on the great work of [JarbasAI](https://github.com/JarbasAl) of [OVOS](https://github.com/OpenVoiceOS). All credits to his work.
 
-A similar skill that records audio instead of text transcriptions is [OpenVoiceOS/skill-ovos-audio-recording](https://github.com/OpenVoiceOS/skill-ovos-audio-recording)
-
-## About
-
-captures utterances and disables wake words while active
-
-- start dictation
-  - enable continuous conversation mode
-  - capture all utterances in converse method
-- converse
-  - display dictation on screen live
-- stop dictation
-  - restore listener mode
-  - save dictation to file
-  - display full dictation on screen
-
-## Examples
-* "start dictation"
-* "end dictation"
-
-## Credits
-JarbasAI
+* [OVOS dictation skill](https://github.com/OpenVoiceOS/ovos-skill-dictation)
+* OVOS technical manual, [chapter about Universal Skills](https://openvoiceos.github.io/ovos-technical-manual/universal_skills/#englishcatfacts-skill-example).
